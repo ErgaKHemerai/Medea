@@ -1,5 +1,6 @@
 # Edit file path in if section
 # xml file: remove TEI header; add a dummy (empty) <speaker></speaker> after the last line
+# github test
 
 import csv
 import xml.etree.ElementTree as ET 
