@@ -2,8 +2,8 @@
 Read XML file and prepare it to compute stats
 
 Two versions of the program: 
-readxml.py - includes stop words in the output
-readxml_nostops.py - excludes stop words
+(1) readxml.py - includes stop words in the output
+(2) readxml_nostops.py - excludes stop words
 
 
 To create an input file:
