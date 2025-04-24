@@ -12,6 +12,8 @@ In detail, the steps are:
 5. run readxml_nostops.py. This program removes punctuation and stop words from the text. It creates a txt file in which each line has this layout: <division of the play>,<character>,<one sentence from the play>.
 6. Open the txt file with Microsoft Excel. Import it is a comma-delimited file. Add calculations for number of words and character per sentence (see sample: Simple_Electra.xls). Add a pivot table if you want to summarize by section of the play ("division", in Perseus XML parlance) or speaker.
 
+There is also a program that counts the lines assigned to each character: line_count.py. It takes the output of step 3 and it produces a comma-delimited text file that can be processed in Microsoft Excel as described above.
+
 Note: readxml.py does not remove stop words; otherwise, it is identical with readxml_nostops.py
 
 
