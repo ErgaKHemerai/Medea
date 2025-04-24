@@ -1,5 +1,7 @@
 # Medea Project - Alfredo Pizzirani, 2025
 # count the number of lines assigned to each speaker and write results to a comma-delimited file
+# before running this program, add a dummy speaker part after the last line of verse in the input xml:
+# <speaker>dummy</speaker> 
 
 import csv
 # import xml.etree.ElementTree as ET 
