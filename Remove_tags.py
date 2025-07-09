@@ -1,8 +1,8 @@
 import xml.etree.ElementTree as ET
 import sys
 
-# input_file = "Simple_Electra.xml"
-# output_file = ".csv"
+# input_file = "Simple_<name>.xml"
+# output_file = "Simple_<name>_clean.xml"
 tag_kill_list = ['q', 'del', 'sic', 'add', 'sp']
 
 def strip_del_tags(xml_input_path, xml_output_path):
